@@ -23,7 +23,8 @@ Besure port is correct number
 
 `./utils/launch.sh --vnc localhost:5901`
 
-
+## Window Manager Possibility:
+[Xephyr](http://blog.csicar.de/docker/window-manger/2016/05/24/docker-wm.html)
 
 ## Docker Info:
 - You can commit docker containers to kind-of save their progress
