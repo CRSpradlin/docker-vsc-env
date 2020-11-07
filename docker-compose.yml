@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+    code-server:
+        build: .
+        container_name: code-server
+        volumes:
+            - ./workspace:/config/workspace
+            - ./config/xstartup:/config/.vnc/xstartup
+        ports:
+            - 8080:8080
+            - 5900:5900
+            - 80:8443
+            - 8000:8000
+        restart: unless-stopped
+
+
