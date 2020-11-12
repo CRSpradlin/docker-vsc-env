@@ -26,6 +26,9 @@ Besure port is correct number
 ## Window Manager Possibility:
 [Xephyr](http://blog.csicar.de/docker/window-manger/2016/05/24/docker-wm.html)
 
+Working window manager: Fully working minimal window manager
+sudo apt install wmaker
+
 ## Docker Info:
 - You can commit docker containers to kind-of save their progress
 - Look [HERE](https://docs.docker.com/engine/reference/commandline/commit/) to view more information on commiting docker containers

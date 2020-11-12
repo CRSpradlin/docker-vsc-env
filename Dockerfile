@@ -1,7 +1,7 @@
 FROM linuxserver/code-server
-ENV abc=hello
-ENV abc=bye def=$abc
-ENV ghi=$abc
+ENV code_server=test
+ENV code_server=bye def=$code_server
+ENV ghi=$code_server
 ENV PUID=1000
 ENV PGID=1000
 ENV TZ=Europe/London
@@ -14,6 +14,7 @@ RUN set -eux; \
         apt update -y; \
         apt install -y git; \
         apt install -y vnc4server; \
+        apt install -y wmaker; \
         mkdir vnc; \
         cd vnc; \
         touch ./password; \
