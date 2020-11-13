@@ -15,6 +15,10 @@ RUN set -eux; \
         apt install -y git; \
         apt install -y vnc4server; \
         apt install -y wmaker; \
+        apt install -y python3-tk; \
+        apt install -y python3-pip; \
+        pip3 install matplotlib; \
+        pip3 install numpy; \
         mkdir vnc; \
         cd vnc; \
         touch ./password; \
