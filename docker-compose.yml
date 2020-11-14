@@ -6,7 +6,7 @@ services:
         volumes:
             - ./workspace:/config/workspace
             - ./config/xstartup:/config/.vnc/xstartup
-            - ./config/settings.json:/config/data/User/settings.json
+            - ./config/settings.json:/config/data/settings.json
         ports:
             - 8080:8080
             - 5900:5900
