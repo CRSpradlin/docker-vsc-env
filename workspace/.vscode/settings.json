@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/config/libraries/javafx-sdk-11.0.2/lib/**/*.jar"
+    ],
+    "maven.view": "hierarchical"
+}
