@@ -10,7 +10,6 @@
             "request": "launch",
             "vmArgs": "-Dprism.order=sw -Dprism.verbose=true --module-path /config/libraries/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml",
             "mainClass": "${file}",
-            "projectName": "workspace_41b14c37"
         }
     ]
 }
